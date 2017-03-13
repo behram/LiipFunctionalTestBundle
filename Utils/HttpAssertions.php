@@ -16,8 +16,9 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\DomCrawler\Crawler;
 use Symfony\Component\HttpFoundation\Response;
 use Liip\FunctionalTestBundle\Test\ValidationErrorsConstraint;
+use PHPUnit\Framework\TestCase;
 
-class HttpAssertions extends \PHPUnit_Framework_TestCase
+class HttpAssertions extends TestCase
 {
     /**
      * Checks the success state of a response.
